@@ -1,0 +1,1 @@
+org.apache.commons.math.analysis.solvers.BrentSolver solve 98 144
