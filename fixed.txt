@@ -1,0 +1,23 @@
+    case "m5" => math_5_settings()// fixed 2 round, 3 fls [verified ok] [par fix not real] v
+    case "m22" => math_22_settings()// fixed 2 round, 2 fls [verified ok] [par not] v
+    case "m34" => math_34_settings()// fixed, 1 fls [par maybe fixed real] v
+    case "m50" => math_50_settings()// fixed, 29 fls, FL 186 [verified ok] [par not] trying
+    case "m53" => math_53_settings()// fixed, ... fls, FL ... [verified ok] [par not] trying
+    case "m70" => math_70_settings()// fixed, 1 fls [par maybe] trying -
+    case "m82" => math_82_settings()// fixed, 10 fls, FL ..., same score [par not]
+    case "t19" => time_19_settings()// fixed 2 round, 12 fls, FL 900 [par not]
+    case "l43" => lang_43_settings()// fixed before?, 4 fls, FL ..., same score [par not]
+    case "l6" => lang_6_settings()// fixed, 9 fls, FL ... [verified ok] [par maybe] v
+    case "l10" => lang_10_settings()
+    case "l51" => lang_51_settings()// fixed, 29 fls, FL ... [verified ok] [par not]
+    case "l57" => lang_57_settings()// fixed 2 round, 1 fls, [par maybe] v
+    case "l59" => lang_59_settings()// fixed so so quality, 6 fls, same score [par maybe] trying -
+    case "c10" => closure_10_settings()// fixed by 2 round tournament (1 round actually because fault space small), 3 fls [par maybe] v
+    case "c14" => closure_14_settings()//fixed by 2-round tournament, 20 fls (-10), FL ... [par maybe] v
+    case "c62" => closure_62_settings()//fixed by 2-round tournament, 21 fls (-10), FL ... [par not]
+    case "c70" => closure_70_settings()//fixed, 12 fls (-2), FL ... [par maybe little chance] v
+    case "c73" => closure_73_settings()//fixed, 11 fls (-1), FL ... [par not]
+    case "c126" => closure_126_settings()// fixed, but 4 failed => 2 failed, 42 fls (-30), FL ... [par not]
+    case "ch1" => chart_1_settings()// fixed 2 round, 7 fls, FL ... [par not]
+    case "ch8" => chart_8_settings()// fixed 2 round, 1 fault loc, but need assume give manually since Ochiai doesnt give [par maybe]
+    case "c51" => closure_51_settings() //fixed //[par maybe]

@@ -1,0 +1,114 @@
+[Closure]
+42/diff.txt add a whole if (big) contain return []
+44/diff.txt add an else brach with append string [>5 lines]
+46/diff.txt change initialisation  
+*51/diff.txt add condition to if, this condition can be grabbed from a function dec in same file or a function declared in same file FIXABLE - FIXED by choosing 10 FLs x5 each loc
+*52/diff.txt add condition to return
+*59/diff.txt add condition to if, this condition can be synthesized from the same object that invokes another cond before FIXABLE
+**62/diff.txt fixed
+65/diff.txt change string input param
+67/diff.txt add condition to if, this condition comes out from nowhere, HARD
+**70/diff.txt fixed
+71/diff.txt replace bool condition with another, the condition can be synthesized from the same object that invokes other conds
+*73/diff.txt fixed
+77/diff.txt add a case statement containing append string
+78/diff.txt delete 2 lines same content but different places - havenot tried
+82/diff.txt add condition to return, involve check equality with function call
+83/diff.txt move one stmt to try catch
+**86/diff.txt fixed
+91/diff.txt add a whole if
+*92/diff.txt change function call from (string type) invoker
+*104/diff.txt change if condition related to returned variable, HARD
+*111/diff.txt change return type under a condition
+*113/diff.txt add condition to if, the condition can be stolen from another if condition, FIXABLE
+115/diff.txt delete 2 if at different locations
+*119/diff.txt add case stmt which comes out from no where
+120/diff.txt add whole if stmt which comes out from no where
+*123/diff.txt replace function calls (at 2 places) argument - havenot tried
+*125/diff.txt add condition to if, this condition can be synthesized from the same object that invokes another cond before
+**126/diff.txt fixed
+*130/diff.txt add condition to if (and), this condition can be synthesised from the same object used in other conditions
+
+[Chart]
+v1/diff.txt change equal, fixed
+
+[Chart]
+v7/diff.txt change method call param (2 params at 2 diff places) tried not fix
+v8/diff.txt change method call param (1 param) fixed
+v20/diff.txt change method call 2 params trying, not fixed
+v24/diff.txt exp rep one value in the exp
+
+[Lang]
+v6/diff.txt method call param rep # trying, fixed
+v21/diff.txt method call param rep (2 params)
+v24/diff.txt add condition to return statement
+v26/diff.txt overload method/constructor* call
+v33/diff.txt null checker: condition exp in the form a:b?…
+v34/diff.txt add condition to return statement
+v39/diff.txt add whole if as null checker
+v47/diff.txt null checker+initializer at 2 different places
+v57/diff.txt change method call (requires java 1.4: add source target to pom.xml) fixed
+v58/diff.txt remove an or condition in if condition (requires java 1.4) fixed but bad quality
+v59/diff.txt change method call argument fixable, fixed so so quality
+v60/diff.txt change loop condition at 2 different places
+
+[Lang]
+v7/diff.txt delete one if, add one if with throw exception inside
+v10/diff.txt delete one if
+v16/diff.txt add condition to if (2 or)
+
+[Lang]
+v11/diff.txt add whole if branch with a throw inside
+v43/diff.txt add a single statement, fixed
+v51/diff.txt add single return statement, fixed	
+
+[Math]
+v2/diff.txt exp mut moretofix
+v5/diff.txt fixed
+v11/diff.txt exp mut moretofix
+v22/diff.txt change return value true => false at 2 different places (methods)
+v34/diff.txt method call rep moretofix, fixed 
+v50/diff.txt delete one if
+v53/diff.txt add a whole if 
+v69/diff.txt exp mut remove param + change function call param moretofix
+v70/diff.txt overloaded function call, fixed
+v72/diff.txt replace function call param 2 two different places, tried not fix
+v82/diff.txt exp mut change math >= to >, fixed
+v85/diff.txt exp mut change math >= to >, fixed
+v98/diff.txt replace param in initialisation length of array moretofix
+
+[Math]
+v3/diff.txt add whole if
+v4/diff.txt add whole if (2 if) as null checker at 2 different places
+v8/diff.txt change object initialisation + function return type
+v9/diff.txt change return value + function call , very hard to fix
+v10/diff.txt add one line of assignment, this line is from no where
+v15/diff.txt change value in if condition (2 values)
+v30/diff.txt remove type cast at 2 places + change variable type
+v32/diff.txt add condition to if ((null check) in infix exp ), this condition can be stolen from other function
+v33/diff.txt change one function call param, fixed not same as human
+v34/diff.txt change function call invoker, why same as v2 or something?
+v42 add an if brach [setup]
+v41/diff.txt replace loop condition
+v46/diff.txt replace return statement at 2 different places [setup]
+v57/diff.txt change variable type
+v58/diff.txt replace return statement (overloaded method call)
+v59/diff.txt replace variable/argument in an condition statement of type a:b? ….
+v67/diff.txt replace return statement at 2 different places (methods)
+v75/diff.txt replace return statement (overloaded method)
+v79/diff.txt change variable declaration type at 2 places
+v80/diff.txt remove parent thesis in exp
+
+[Math]
+v43/diff.txt change != to ! instance of at 3 if
+v56/diff.txt delete a while and add an assign 
+v86/diff.txt delete one if, add whole if with throw
+v89/diff.txt add checker for variable type
+
+[Time]
+v19/diff.txt change math fixed
+[Time]
+v4/diff.txt change input argument into object initialisation
+
+
+
