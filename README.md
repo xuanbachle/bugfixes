@@ -11,4 +11,4 @@ If you use our tool for your research work, please cite our paper:
 
 The bug fix history that was used in our graph (bug fixes) mining stage is available here: https://github.com/xuanbachle/data-bugfixes
 
-Stay tuned, we will upload the full information of the project (including how to run it, bugs that are included in the experiments, etc) into this repository soon. 
+The information of bugs used our experiments are attached. The file all_data contains bugs used in our experiment and the fixed contains bugs fixed by our tool. 
